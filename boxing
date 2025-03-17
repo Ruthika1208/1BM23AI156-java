@@ -1,0 +1,38 @@
+package BM23AI156;
+
+public class boxing {
+    public static void main(String[]args){
+        Integer boxedInt=Integer.valueOf(10);
+        Double boxedDouble=Double.valueOf(20.5);
+        Character boxedChar=Character.valueOf('A');
+        Float boxedFloat=Float.valueOf(1.4f);
+        Boolean boxedBoolean=Boolean.valueOf(true);
+        int unboxedInt=boxedInt.intValue();
+        double unboxedDouble=boxedDouble.doubleValue();
+        char unboxedChar=boxedChar.charValue();
+        boolean unboxedBoolean=boxedBoolean.booleanValue();
+        float unboxedFloat=boxedFloat.floatValue();
+        System.out.println("Boxed Integer:"+boxedInt);
+        System.out.println("Boxed Double:"+boxedDouble);
+        System.out.println("Boxed Character:"+boxedChar);
+        System.out.println("Boxed Boolean:"+boxedBoolean);
+        System.out.println("Boxed Float:"+boxedFloat);
+        System.out.println("UnBoxed Integer:"+unboxedInt);
+        System.out.println("UnBoxed Double:"+unboxedDouble);
+        System.out.println("UnBoxed Character:"+unboxedChar);
+        System.out.println("UnBoxed Boolean:"+unboxedBoolean);
+        System.out.println("UnBoxed Float:"+unboxedFloat);
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+}
